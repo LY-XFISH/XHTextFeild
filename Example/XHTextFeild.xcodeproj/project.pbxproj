@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		048DDF9F3895567E2A7409FE /* Pods-XHTextFeild_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHTextFeild_Example.debug.xcconfig"; path = "Target Support Files/Pods-XHTextFeild_Example/Pods-XHTextFeild_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		20ED30EC6DE7AFE2E54F79D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3782254B1649D8135CBB5AEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		20ED30EC6DE7AFE2E54F79D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3782254B1649D8135CBB5AEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4BD8853E063C2D5D84AA4407 /* Pods-XHTextFeild_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHTextFeild_Example.release.xcconfig"; path = "Target Support Files/Pods-XHTextFeild_Example/Pods-XHTextFeild_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XHTextFeild_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHTextFeild_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,7 +52,7 @@
 		6003F59C195388D20070C39A /* XHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* XHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* XHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHViewController.m; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* XHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHViewController.m; sourceTree = "<group>"; usesTabs = 0; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* XHTextFeild_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHTextFeild_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,7 +61,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6747377FC4F49BB3E369A236 /* Pods-XHTextFeild_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHTextFeild_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XHTextFeild_Tests/Pods-XHTextFeild_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6FD38A1CA7CB781B775EB5F6 /* XHTextFeild.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XHTextFeild.podspec; path = ../XHTextFeild.podspec; sourceTree = "<group>"; };
+		6FD38A1CA7CB781B775EB5F6 /* XHTextFeild.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XHTextFeild.podspec; path = ../XHTextFeild.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71F3A0750CEE5C95CC1B6EA9 /* Pods-XHTextFeild_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHTextFeild_Tests.release.xcconfig"; path = "Target Support Files/Pods-XHTextFeild_Tests/Pods-XHTextFeild_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				6747377FC4F49BB3E369A236 /* Pods-XHTextFeild_Tests.debug.xcconfig */,
 				71F3A0750CEE5C95CC1B6EA9 /* Pods-XHTextFeild_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

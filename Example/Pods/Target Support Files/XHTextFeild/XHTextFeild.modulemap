@@ -1,0 +1,6 @@
+framework module XHTextFeild {
+  umbrella header "XHTextFeild-umbrella.h"
+
+  export *
+  module * { export * }
+}

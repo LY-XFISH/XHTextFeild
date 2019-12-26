@@ -1,0 +1,22 @@
+{
+  "name": "XHTextFeild",
+  "version": "0.1.0",
+  "summary": "A short description of XHTextFeild.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/18382434902/XHTextFeild",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18382434902": "k88985@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/18382434902/XHTextFeild.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XHTextFeild/Classes/**/*"
+}
