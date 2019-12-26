@@ -7,8 +7,11 @@
 //
 
 #import "XHViewController.h"
+#import "XHTextFeild/XHTextField.h"
 
-@interface XHViewController ()
+@interface XHViewController ()<XHTextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet XHTextField *textFeild;
 
 @end
 
@@ -17,7 +20,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.textFeild.textFieldDelegate = self;
+    self.textFeild.limit = XHTextFieldLimitCN;
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +30,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+// MARK: - XHTextFieldDelegate
+
+- (void)xh_textFieldTextDidChanged:(XHTextField *)textField {
+    NSLog(@"%@",textField.text);
+}
+
+- (BOOL)xh_textField:(XHTextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    return YES;
+}
+
+
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5398B76F23B476D2002C2A0C /* XHTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5398B76E23B476D2002C2A0C /* XHTextField.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 		20ED30EC6DE7AFE2E54F79D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3782254B1649D8135CBB5AEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4BD8853E063C2D5D84AA4407 /* Pods-XHTextFeild_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHTextFeild_Example.release.xcconfig"; path = "Target Support Files/Pods-XHTextFeild_Example/Pods-XHTextFeild_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5398B76D23B476D2002C2A0C /* XHTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTextField.h; sourceTree = "<group>"; };
+		5398B76E23B476D2002C2A0C /* XHTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTextField.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XHTextFeild_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHTextFeild_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5398B76C23B476D2002C2A0C /* XHTextFeild */ = {
+			isa = PBXGroup;
+			children = (
+				5398B76D23B476D2002C2A0C /* XHTextField.h */,
+				5398B76E23B476D2002C2A0C /* XHTextField.m */,
+			);
+			path = XHTextFeild;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +144,7 @@
 		6003F593195388D20070C39A /* Example for XHTextFeild */ = {
 			isa = PBXGroup;
 			children = (
+				5398B76C23B476D2002C2A0C /* XHTextFeild */,
 				6003F59C195388D20070C39A /* XHAppDelegate.h */,
 				6003F59D195388D20070C39A /* XHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -384,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* XHAppDelegate.m in Sources */,
+				5398B76F23B476D2002C2A0C /* XHTextField.m in Sources */,
 				6003F5A7195388D20070C39A /* XHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -516,6 +530,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHTextFeild/XHTextFeild-Prefix.pch";
 				INFOPLIST_FILE = "XHTextFeild/XHTextFeild-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +547,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHTextFeild/XHTextFeild-Prefix.pch";
 				INFOPLIST_FILE = "XHTextFeild/XHTextFeild-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

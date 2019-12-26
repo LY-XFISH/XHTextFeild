@@ -1,4 +1,5 @@
 # XHTextFeild
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/18382434902/XHTextFeild.svg?style=flat)](https://travis-ci.org/18382434902/XHTextFeild)
 [![Version](https://img.shields.io/cocoapods/v/XHTextFeild.svg?style=flat)](https://cocoapods.org/pods/XHTextFeild)
@@ -22,8 +23,11 @@ pod 'XHTextFeild'
 
 ## Author
 
-18382434902, k88985@qq.com
+Lius.Yu, k88985@qq.com
 
 ## License
 
 XHTextFeild is available under the MIT license. See the LICENSE file for more info.
+=======
+简单封装自带输入限制的TextFeild。可限制只输入数字、中文、英文及其两两组合的输入方式。
+>>>>>>> 44feb19723e603f15b4c681ffd0477be22bc3713
