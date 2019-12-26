@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XHTextFeild_Example' do
+  pod 'XHTextFeild', :path => '../'
+
+  target 'XHTextFeild_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
